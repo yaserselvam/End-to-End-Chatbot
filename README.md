@@ -1,48 +1,56 @@
 # End-to-End Chatbot Using Python
 
 This repository contains a project to build an **End-to-End Chatbot** using Python. The chatbot leverages **Natural Language Processing (NLP)** and machine learning to provide interactive and intelligent conversations. It includes components for text preprocessing, intent recognition, response generation, and deployment.
+
 ## 📌 Overview
 
-Document analysis is essential for tasks like text extraction, sentiment analysis, keyword generation, and summarization. By leveraging the capabilities of **LLMs**, this project offers an efficient way to process and derive meaningful insights from unstructured text data.
+Chatbots are increasingly essential for automating interactions in customer support, e-commerce, and more. This project demonstrates the step-by-step development of a chatbot, from text preprocessing to deployment, ensuring robust and context-aware interactions.
 
 ## 💡 Key Features
 
-- **Text Extraction**:
-  - Automatic extraction of key paragraphs, sentences, and phrases.
-- **Sentiment Analysis**:
-  - Determine the sentiment of the document or its sections.
-- **Keyword Generation**:
-  - Extract key terms and phrases from text for indexing or search.
-- **Summarization**:
-  - Generate concise summaries of lengthy documents.
-- **Custom Models**:
-  - Fine-tune pretrained models for domain-specific document analysis.
+- **Intent Recognition**:
+  - Classifies user input to determine the intent.
+- **Response Generation**:
+  - Rule-based or machine learning-based response generation.
+- **Text Preprocessing**:
+  - Tokenization, stemming, and lemmatization.
+- **Machine Learning Integration**:
+  - Use models like Logistic Regression or TensorFlow/Keras for training.
+- **Deployment-Ready**:
+  - Deploy the chatbot locally or on a web application using Flask or Streamlit.
 
 ## 🚀 Technologies Used
 
 - **Python**: Core programming language.
-- **Libraries**: Hugging Face Transformers.
+- **Libraries**: NLP: NLTK, Scikit-learn, Streamlit.
 - **Development Tools**: Jupyter Notebook.
 
 ## 📂 Project Structure
 
 ```
-├── content/
-│   ├── extracted_text.txt
-│   ├── google_terms_of_service_en_in.pdf
+├── image/
+│   ├── chatbot_app.png
 ├── notebooks/
-│   ├── extraction.ipynb            
-│   ├── generation.ipynb    
-│   ├── summarization.ipynb
+│   ├── chatbot_app.ipynb            
+│   ├── chatbot_app.py    
 ```
+
+## 📊 Example Results
+
+### Sample Conversation
+
+![Chatbot Example](./image/chatbot_app.png)
+
+**User**: "Please tell me how to create a good budget."  
+**Chatbot**: "To create a budget, start by setting financial goals for yourself. Then, track your income and expenses for a few months to get a sense of where your money is going. Next, create a budget by allocating your income towards essential expenses, savings and debt repayment, and discretionary expenses."
 
 ## 🛠️ Installation
 
 1.	Clone the repository:
    
 ```bash
-git clone https://github.com/yaserselvam/Document-Analysis.git
-cd Document-Analysis
+git clone https://github.com/yaserselvam/End-to-End-Chatbot.git
+cd End-to-End-Chatbot
 ```
 
 2.	Run the Jupyter Notebooks:
@@ -51,19 +59,25 @@ cd Document-Analysis
 jupyter notebook
 ```
 
+3. Run the chatbot locally:
+
+```bash
+streamlit run chatbot_app.py
+```
+
 ## 📚 Usage
 
-1.	Place your document (e.g., .pdf, .docx, or .txt) in the content/ directory.
-2.	Use the **EDA and Text Extraction notebook** to extract text and preprocess it.
-3.	Run the **Document Analysis notebook** to perform tasks like sentiment analysis, keyword extraction, and summarization.
-4.	Evaluate the results and visualize insights.
+1.	Define your intents.
+2.	Use the **Text Preprocessing notebook** to clean and prepare text data.
+3.	Train the intent classification model using **Model Training notebook** or train.py.
+4.	Test the chatbot locally with chatbot.py or deploy it using the Flask app.
 
 ## 📈 Future Enhancements
 
-- Integrate Optical Character Recognition (OCR) for image-based documents.
-- Enable real-time document analysis via a web interface using Streamlit.
-- Expand language support for multilingual document analysis.
-- Fine-tune LLMs for domain-specific tasks.
+- Integrate a database for storing and managing user interactions.
+- Expand functionality with pre-trained LLMs like OpenAI’s GPT.
+- Enable multilingual support for broader audience interaction.
+- Add voice input/output capabilities for a voice-enabled chatbot.
 
 ## 💌 Contact
 
