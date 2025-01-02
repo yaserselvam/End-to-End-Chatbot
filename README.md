@@ -56,7 +56,7 @@ cd End-to-End-Chatbot
 jupyter notebook
 ```
 
-3. Run the chatbot locally:
+3. Deploy using streamlit:
 
 ```bash
 streamlit run chatbot_app.py
