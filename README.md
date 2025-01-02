@@ -22,7 +22,7 @@ Chatbots are increasingly essential for automating interactions in customer supp
 ## 🚀 Technologies Used
 
 - **Python**: Core programming language.
-- **Libraries**: NLP: NLTK, Scikit-learn, Streamlit.
+- **Libraries**: NLTK, Scikit-learn, Streamlit.
 - **Development Tools**: Jupyter Notebook.
 
 ## 📂 Project Structure
