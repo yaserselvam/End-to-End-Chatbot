@@ -41,9 +41,6 @@ Chatbots are increasingly essential for automating interactions in customer supp
 
 ![Chatbot Example](./image/chatbot_app.png)
 
-**User**: "Please tell me how to create a good budget."  
-**Chatbot**: "To create a budget, start by setting financial goals for yourself. Then, track your income and expenses for a few months to get a sense of where your money is going. Next, create a budget by allocating your income towards essential expenses, savings and debt repayment, and discretionary expenses."
-
 ## 🛠️ Installation
 
 1.	Clone the repository:
